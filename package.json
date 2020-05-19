@@ -1,0 +1,16 @@
+{
+  "name": "meething-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "L. Mangani <lorenzo.mangani@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.5",
+    "discord.js": "^11.6.3"
+  }
+}
