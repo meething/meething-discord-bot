@@ -3,6 +3,9 @@
 ### Meething : Discord Bot
 Discord Bot dispatching free Video Meething invites!
 
+![image](https://user-images.githubusercontent.com/1423657/82379720-b045fc00-9a27-11ea-8389-171859ec8dcd.png)
+
+
 #### Create a Discord Bot
 Follow the guide at https://discordpy.readthedocs.io/en/latest/discord.html to create an authorize your Discord bot
 
