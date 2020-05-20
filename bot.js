@@ -38,7 +38,7 @@ client.on("message", async message => {
   if(command === "meething") {
     // Return a random meething room
     var randomRoom = chance.animal() +"_"+ chance.first() +"_"+ chance.city();
-    var conference = "Videoroom Ready at: https://us.meething.space/?room="+randomRoom;
+    var conference = "Videoroom Ready at: https://us.meething.space/?room="+randomRoom.trim();
     message.channel.send(conference);
   }
 
