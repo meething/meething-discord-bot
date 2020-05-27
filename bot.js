@@ -22,6 +22,11 @@ client.on("guildDelete", guild => {
   client.user.setActivity(`Serving ${client.guilds.size} servers`);
 });
 
+client.on("guildMemberAdd", (member) => {
+  const defaultChannel = guild.channels.find(channel => channel.permissionsFor(guild.me).has("SEND_MESSAGES"));
+  defaultChannel.send("Hi and welcome to Meething (pronounced Meeting).\n We are working hard on WebRTC video conferencing.\n Try it by typing /meething right here.");
+});
+
 
 client.on("message", async message => {
   if(message.author.bot) return;
